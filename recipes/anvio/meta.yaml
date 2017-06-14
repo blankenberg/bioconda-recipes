@@ -19,30 +19,34 @@ requirements:
     - setuptools
     - cython
     - bottle >=0.12.9
-    - pysam ==0.9.1
-    - ete2 >=2.3.10
+    - pysam ==0.11.1
+    - ete3 ==3.0.0b35
     - scipy >=0.13.3
     - scikit-learn >=0.17.1
     - django >=1.9.7
     - h5py >=2.6.0
-    - cherrypy >=6.0.2,<9
+    - cherrypy ==8.9.1
     - requests >=2.10.0
     - gsl
+    - psutil >=5.0.1
+    - mistune ==0.7.4
 
   run:
     - python
     - libgcc  # [not osx]
     - cython
     - bottle >=0.12.9
-    - pysam ==0.9.1
-    - ete2 >=2.3.10
+    - pysam ==0.11.1
+    - ete3 ==3.0.0b35
     - scipy >=0.13.3
     - scikit-learn >=0.17.1
     - django >=1.9.7
     - h5py >=2.6.0
-    - cherrypy >=6.0.2,<9
+    - cherrypy ==8.9.1
     - requests >=2.10.0
     - gsl
+    - psutil >=5.0.1
+    - mistune ==0.7.4
     - diamond
     - blast
     - prodigal
